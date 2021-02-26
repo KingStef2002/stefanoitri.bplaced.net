@@ -10,6 +10,11 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/>
+    <script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script>
+    <script>
+        window.addEventListener("load", function(){window.wpcc.init({"colors":{"popup":{"background":"#f6f6f6","text":"#000000","border":"#555555"},"button":{"background":"#555555","text":"#ffffff"}}, "content":{"href":"/datenschutz.php"},"border":"normal","corners":"normal","padding":"small","margin":"large","fontsize":"large"})});
+    </script>
 </head>
 
 <body class="bg-black muli">
@@ -431,14 +436,10 @@
                     <div class="w-33pc md-px-10 mb-10">
                         <h5 class="white">Company</h5>
                         <ul class="list-none mt-5 fs-s2">
-                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">About
-                                    Us</a></li>
-                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">Jobs</a>
-                            </li>
-                            <li class="my-3"><a href="#"
-                                    class="white opacity-70 no-underline hover-underline">Contact</a></li>
-                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">Media</a>
-                            </li>
+                            <li class="my-3"><a href="urheberrecht.php"
+                                                class="white opacity-70 no-underline hover-underline">Urheberrecht</a></li>
+                            <li class="my-3"><a href="impressum.php"
+                                                class="white opacity-70 no-underline hover-underline">Impressum</a></li>
                         </ul>
                     </div>
                     <div class="w-33pc md-px-10 mb-10">
