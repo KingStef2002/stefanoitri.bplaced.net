@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    <?php include_once("basehead.php"); ?>
+    <?php include_once('basehead.php'); ?>
 </head>
 
-<?php include_once("header.php") ?>
+<?php include_once('header.php') ?>
 
     <section id="home" class="min-h-50vh flex justify-start items-center">
         <div class="mx-5 md-mx-l5">
@@ -20,6 +20,6 @@
         </div>
     </section>
 
-<?php include_once("footer.php") ?>
+<?php include_once('footer.php') ?>
 
 </html>
