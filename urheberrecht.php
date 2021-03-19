@@ -9,6 +9,9 @@
     
     <section id="home" class="min-h-50vh flex justify-start items-center">
         <div class="mx-5 md-mx-l5">
+            <h2 class="white fs-l2 lh-2 md-fs-xl1 md-lh-1  ">Urheberrecht</h2>
+            <br>
+
             <h3 class="white">Nenne 3 verschiedene Arten von Werken welche Urheberrechtlich geschützt werden?</h3>
             <p class="white">
                 •	Fotografische, filmische und andere visuelle oder audiovisuelle Werke<br>
@@ -60,6 +63,36 @@
             <br>
             <h3 class="white">Wann sind Texte auch Urheberrechtlich geschützt?</h3>
             <p class="white">Wenn sie über einen bestimmten Grad an schöpferischer Leistung verfügen.</p>
+            <br>
+
+            <h2 class="white fs-l2 lh-2 md-fs-xl1 md-lh-1  ">Copyright</h2>
+            <br>
+
+            <p class="white">
+                Bei Copyright kann der Autor entscheiden wie er das Produkt zur verfügung stellt.
+                Entweder kostenlos oder kostenpflichtig.
+                Der Urheber selbst hat das Recht zu entscheiden wie und wo das Produkt eingesetzt werden darf.
+            </p>
+            <br>
+
+            <h2 class="white fs-l2 lh-2 md-fs-xl1 md-lh-1  ">Public Domain</h2>
+            <br>
+
+            <p class="white">
+                Bei Public Domain verzichtet der Urheber auf seine Rechte.
+                Also sind diese Werke nicht Urheberechtlich geschützt.
+                Das Werk darf man in dem Fall so benutzen wie man möchte.
+            </p>
+            <br>
+
+            <h2 class="white fs-l2 lh-2 md-fs-xl1 md-lh-1  ">Fair Use</h2>
+            <br>
+
+            <p class="white">
+                Fair Use besagt, dass die Benutzung urheberrechtlich geschützten Materials zum Zwecke der Kritik,
+                der Stellungnahme, der Berichterstattung, der Bildung und der Wissenschaft keine Urheberrechtsverletzung darstellt.
+                Dies wurde im Copyright Act von 1976 erstmals beschrieben. Vorher gab es keine Ausnahmen.
+            </p>
             <br>
         </div>
     </section>
