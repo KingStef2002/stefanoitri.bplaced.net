@@ -15,5 +15,9 @@
     <orderEntry type="library" name="slick-theme" level="application" />
     <orderEntry type="library" name="slick-carousel" level="application" />
     <orderEntry type="library" name="shorthandcss" level="application" />
+    <orderEntry type="library" name="shorthandcss" level="application" />
+    <orderEntry type="library" name="slick-carousel" level="application" />
+    <orderEntry type="library" name="cookieconsent" level="application" />
+    <orderEntry type="library" name="slick-theme" level="application" />
   </component>
 </module>

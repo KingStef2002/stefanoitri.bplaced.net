@@ -1,0 +1,103 @@
+//$prime: #ff6e48
+//$second: #1b2431
+//$white: #ffffff
+
+$prime: indigo
+$second: indigo
+$white: #ffffff
+
+*
+  box-sizing: border-box
+
+#wrapper
+  display: flex
+  flex-flow: column
+  justify-content: space-between
+  align-items: center
+  width: 100%
+  height: 100%
+
+  .element
+    width: 25rem
+    height: 15rem
+    background-color: $white
+    display: flex
+    flex-flow: column
+    justify-content: center
+    align-items: center
+    transition: all 250ms ease
+    position: relative
+
+    // Effekt Nr. 1
+    &.effekt1:hover
+      box-shadow: inset 0 0 0 0.5rem $prime
+
+    // Effekt Nr. 2
+    &.effekt2:hover
+      border-radius: 2rem
+
+    // Effekt Nr. 3
+    &::after
+      transition: all 250ms ease
+      content: ""
+      display: block
+      position: absolute
+      left: 0
+      bottom: 0
+      width: 0
+      height: 0.2rem
+      background-color: $prime
+
+    &.effekt3:hover
+      &::after
+        width: 100%
+
+    // Effekt Nr. 4
+    &.effekt4:hover
+      transform: translate(2rem, 1rem)
+
+    // Effekt Nr. 5
+    &.effekt5:hover
+      box-shadow: 0 1.9rem 3.8rem rgba(0, 0, 0, 0.3), 0 1.5rem 1.2rem rgba(0, 0, 0, 0.22)
+      transform: translate(0, -1rem)
+
+    // Effekt Nr. 6
+    &.effekt6
+      animation: animation-in 500ms forwards
+
+    &.effekt6:hover
+      animation: animation-out 500ms forwards
+
+    @keyframes animation-out
+      0%
+        transform: translate(0, 0)
+      50%
+        transform: translate(0, 1rem)
+      100%
+        transform: translate(0, 1rem) rotate(5deg)
+
+    @keyframes animation-in
+      0%
+        transform: translate(0, 1rem) rotate(5deg)
+      50%
+        transform: translate(0, 1rem)
+      100%
+        transform: translate(0, 0)
+
+    //Effekt Nr. 7
+    &.effekt7:hover
+      animation: swiggle 250ms forwards ease
+
+    @keyframes swiggle
+      0%
+        transform: translate(0, 0)
+      15%
+        transform: translate(1rem, 0)
+      35%
+        transform: translate(-1rem, 0)
+      55%
+        transform: translate(1rem, 0)
+      80%
+        transform: translate(-1rem, 0)
+      100%
+        transform: translate(0, 0)
