@@ -2,6 +2,26 @@
   box-sizing: border-box;
 }
 
+.loading {
+  fill: none;
+  stroke: white;
+  stroke-width: 10;
+  stroke-dasharray: 30 10;
+  animation: strokeAni .8s infinite linear;
+}
+
+@keyframes strokeAni {
+  0% {
+    stroke-dashoffset: 40;
+  }
+  50% {
+    stroke-dashoffset: 20;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
 #wrapper {
   display: flex;
   flex-flow: column;

@@ -14,6 +14,7 @@
         <a href="cssanimation.php" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Animations</a>
         <a href="video_formats.php" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Video Formate</a>
         <a href="image_formats.php" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Bild Formate</a>
+        <a href="scroll_activated.php" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Scroll Animation</a>
         <a href="#" class="button bg-white black fw-600 no-underline mx-5">Register</a>
     </div>
 </nav>

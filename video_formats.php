@@ -107,6 +107,26 @@
             </div>
 
         </div>
+
+        <div class="w-100vw flex flex-column md-flex-row">
+            <video controls="" width="25%" height="auto">
+                <source src="assets/videos/m152_2.avi" type="video/avi">
+            </video>
+            <div class="p-2 pl-4 w-50pc">
+                <h3 class="white pb-1">AVI</h3>
+                <p class="white">Grösse: 252 MB</p>
+                <p class="white">Vorteile:</p>
+                <p class="white">
+                    •	Weite Verbreitung<br>
+                </p>
+                <br>
+                <p class="white">Nachteile:</p>
+                <p class="white">
+                    •	Unflexibel<br>
+                </p>
+            </div>
+
+        </div>
     </div>
 </section>
 
