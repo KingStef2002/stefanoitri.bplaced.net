@@ -25,3 +25,72 @@
 .col-4 {
     width: 20%;
 }
+
+
+
+/*
+    For private Websites you are
+    free to use and modify this App.
+    Commercial use needs my
+    permission! Contact me.
+    Never remove or modify Copyright!
+    --- (C) Jo Klimek 2011 CssApps.de ---
+*/
+a:hover, a:focus{}
+
+#galery {
+    position:relative;
+    width:722px;        /*a.pics_width * cols + 2px border*/
+    height:482px;        /*a.pics_height * rows + 2px border*/
+    margin:2em auto;
+    border: 1px solid #777;
+    padding: 5px;
+    background:#ddd;
+}
+
+a.pics {                /* !! cell design !! */
+    display:block;
+    float:left;
+    width:178px;        /* preview size = 170 x 120 px  (-2px border) */
+    height:118px;                /*   */
+    background:#888;
+    border:1px outset #fff;
+}
+
+a.pics span {
+    display:none;
+}
+
+a.pics img.prev {
+    display:block;
+    height:100px;        /*   =  preview_cell_height - 20px (margin) */
+    border:none;
+    margin: 10px auto;
+}
+
+a.pics:focus span,        /* FULL_VIEW */
+a.pics:active span
+{
+    display:block;
+    position:absolute;
+    left:4px;
+    top:4px;
+    width:724px;        /* = preview_width * preview_cols */
+    height:484px;        /* = preview_height * preview_rows */
+    background:#fff;
+}
+
+a.pics:hover {
+    border:1px solid red;
+}
+
+a.pics img.big {
+    display:block;
+    height:470px;        /* = a.focus_height-14px (margin) */
+    border:none;
+    margin:7px auto;
+}
+
+td, th {
+    color: white;
+}

@@ -20,32 +20,10 @@
                                             class="white opacity-70 no-underline hover-underline">Urheberrecht</a></li>
                         <li class="my-3"><a href="impressum.php"
                                             class="white opacity-70 no-underline hover-underline">Impressum</a></li>
-                    </ul>
-                </div>
-                <div class="w-33pc md-px-10 mb-10">
-                    <h5 class="white">Product</h5>
-                    <ul class="list-none mt-5 fs-s2">
-                        <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">About
-                                Us</a></li>
-                        <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">Jobs</a>
-                        </li>
-                        <li class="my-3"><a href="#"
-                                            class="white opacity-70 no-underline hover-underline">Contact</a></li>
-                        <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">Media</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="w-33pc md-px-10 mb-10">
-                    <h5 class="white">Support</h5>
-                    <ul class="list-none mt-5 fs-s2">
-                        <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">About
-                                Us</a></li>
-                        <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">Jobs</a>
-                        </li>
-                        <li class="my-3"><a href="#"
-                                            class="white opacity-70 no-underline hover-underline">Contact</a></li>
-                        <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">Media</a>
-                        </li>
+                        <li class="my-3"><a href="styleguide.php"
+                                            class="white opacity-70 no-underline hover-underline">Styleguide</a></li>
+                        <li class="my-3"><a href="wireframes.php"
+                                            class="white opacity-70 no-underline hover-underline">Wireframes</a></li>
                     </ul>
                 </div>
             </div>
