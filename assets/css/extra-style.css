@@ -28,6 +28,16 @@
 
 
 
+@media screen and (max-width: 768px) {
+    .resp-grid .col-2 {
+        width: 100%;
+    }
+}
+
+.col-2 {
+    width: 50%;
+}
+
 /*
     For private Websites you are
     free to use and modify this App.

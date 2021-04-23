@@ -24,6 +24,10 @@
                                             class="white opacity-70 no-underline hover-underline">Styleguide</a></li>
                         <li class="my-3"><a href="wireframes.php"
                                             class="white opacity-70 no-underline hover-underline">Wireframes</a></li>
+                        <li class="my-3"><a href="automated_testing.php"
+                                            class="white opacity-70 no-underline hover-underline">Automatisierung</a></li>
+                        <li class="my-3"><a href="contact.php"
+                                            class="white opacity-70 no-underline hover-underline">Contact</a></li>
                     </ul>
                 </div>
             </div>
