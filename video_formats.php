@@ -16,11 +16,11 @@
         <a class="button no-underline bg-indigo" onclick="stopSync()">Stop sync</a>
         <br>
 
-        <div class="h-25vh flex">
-            <video controls="" width="auto" height="100%">
+        <div class="w-100vw flex flex-column md-flex-row">
+            <video controls="" width="25%" height="auto">
                 <source src="assets/videos/m152_2.mp4" type="video/mp4">
             </video>
-            <div class="p-2 pl-4 w-50pc">
+            <div class="p-2 pl-4 w-75pc">
                 <h3 class="white pb-1">MP4</h3>
                 <p class="white">Grösse: 253 MB</p>
                 <p class="white">Vorteile:</p>
@@ -37,11 +37,11 @@
             </div>
         </div>
 
-        <div class="h-25vh flex">
-            <video controls="" width="auto" height="100%">
+        <div class="w-100vw flex flex-column md-flex-row">
+            <video controls="" width="25%" height="auto">
                 <source src="assets/videos/m152_2.mov" type="video/quicktime">
             </video>
-            <div class="p-2 pl-4 w-50pc">
+            <div class="p-2 pl-4 w-70pc">
                 <h3 class="white pb-1">Mov</h3>
                 <p class="white">Grösse: 252 MB</p>
                 <p class="white">Vorteile:</p>
@@ -61,11 +61,11 @@
 
         </div>
 
-        <div class="h-25vh flex">
-            <video controls="" width="auto" height="100%">
+        <div class="w-100vw flex flex-column md-flex-row">
+            <video controls="" width="25%" height="auto">
                 <source src="assets/videos/m152_2.ogg" type="video/ogg">
             </video>
-            <div class="p-2 pl-4 w-50pc">
+            <div class="p-2 pl-4 w-70pc">
                 <h3 class="white pb-1">OGG</h3>
                 <p class="white">Grösse: 257 MB</p>
                 <p class="white">Vorteile:</p>
@@ -88,8 +88,8 @@
 
         </div>
 
-        <div class="h-25vh flex">
-            <video controls="" width="auto" height="100%">
+        <div class="w-100vw flex flex-column md-flex-row">
+            <video controls="" width="25%" height="auto">
                 <source src="assets/videos/m152_2.avi" type="video/avi">
             </video>
             <div class="p-2 pl-4 w-50pc">
@@ -107,8 +107,6 @@
             </div>
 
         </div>
-
-
     </div>
 </section>
 
